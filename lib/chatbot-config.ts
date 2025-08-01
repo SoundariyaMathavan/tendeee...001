@@ -1,5 +1,5 @@
-export const COHERE_API_KEY = process.env.COHERE_API_KEY || "grq7KQ5LsX3sWYo4cZEaN8iYwv7HYm80zbWk588A"
-export const COHERE_API_URL = process.env.COHERE_API_URL || "https://api.cohere.ai/v1/chat"
+export const COHERE_API_KEY = process.env.COHERE_API_KEY 
+export const COHERE_API_URL = process.env.COHERE_API_URL
 
 export const SYSTEM_PROMPT = `You are a helpful customer support assistant for TenderChain, a blockchain and AI-powered tender management platform. 
 
